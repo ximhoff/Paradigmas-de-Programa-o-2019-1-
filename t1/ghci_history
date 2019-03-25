@@ -1,0 +1,100 @@
+tenChar ["felipe","Gabriela","Mimeeafonso"]
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:t concat
+take 10 "felipe imhoff"
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:t take
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+betterEncodeName  "felipe uu"
+"felipe uu"
+:t concatMap 
+:l aula2.hs 
+:t sort
+quikSort [2,1]
+sort [2,1]
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+betterEncodeName "Felipe Imhoff"
+:l aula2.hs
+encodeName "felipe Imhoff"
+:l aula2.hs
+encodeName "felipe Imhoff"
+:l aula2.hs
+encodeName "felipe Imhoff"
+encodeName "felipe Imhoff"
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+userName "FELIPE IMHOFF"
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+lastName "Felipe Imhoff"
+:l aula2.hs
+:l aula2.hs
+lastName "Felipe Imhoff"
+:l aula2.hs
+isInt "123"
+isInt "123a"
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+:l aula2.hs
+firstName "felipe Imhoff"
+:l aula2.hs
+traco2 "roberto comeu WILLIAO"
