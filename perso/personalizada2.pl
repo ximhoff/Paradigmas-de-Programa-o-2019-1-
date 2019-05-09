@@ -1,7 +1,7 @@
 pontas(X, [H|T]):- last([H|T],X); H = X .
 
 aoLado(X,Y,List):- nextto(X,Y,List); nextto(Y,X,List).
-
+% https://rachacuca.com.br/logica/problemas/navios-no-porto/
 % navio(Nacio,Saida,Carg,Chaminé,Destino)
 
 solucao(Navios):-
