@@ -168,8 +168,50 @@ public class GUIView extends Application {
 
             }
         });
-        
 
+        tableColumns.get(0).setCellFactory(TextFieldTableCell.forTableColumn());
+        tableColumns.get(0).setOnEditCommit(new EventHandler<TableColumn.CellEditEvent<PersonList, String>>() {
+            @Override
+            public void handle(TableColumn.CellEditEvent<PersonList, String> personListStringCellEditEvent) {
+
+                int x = personListStringCellEditEvent.getTablePosition().getRow();
+                personListController.getPersons().get(x).setName(personListStringCellEditEvent.getNewValue());
+
+            }
+        });
+
+        tableColumns.get(1).setCellFactory(TextFieldTableCell.forTableColumn());
+        tableColumns.get(1).setOnEditCommit(new EventHandler<TableColumn.CellEditEvent<PersonList, String>>() {
+            @Override
+            public void handle(TableColumn.CellEditEvent<PersonList, String> personListStringCellEditEvent) {
+
+                int x = personListStringCellEditEvent.getTablePosition().getRow();
+                personListController.getPersons().get(x).setLastname(personListStringCellEditEvent.getNewValue());
+
+            }
+        });
+
+        tableColumns.get(2).setCellFactory(TextFieldTableCell.forTableColumn());
+        tableColumns.get(2).setOnEditCommit(new EventHandler<TableColumn.CellEditEvent<PersonList, String>>() {
+            @Override
+            public void handle(TableColumn.CellEditEvent<PersonList, String> personListStringCellEditEvent) {
+
+                int x = personListStringCellEditEvent.getTablePosition().getRow();
+                personListController.getPersons().get(x).setGrade1(personListStringCellEditEvent.getNewValue());
+
+            }
+        });
+
+        tableColumns.get(3).setCellFactory(TextFieldTableCell.forTableColumn());
+        tableColumns.get(3).setOnEditCommit(new EventHandler<TableColumn.CellEditEvent<PersonList, String>>() {
+            @Override
+            public void handle(TableColumn.CellEditEvent<PersonList, String> personListStringCellEditEvent) {
+
+                int x = personListStringCellEditEvent.getTablePosition().getRow();
+                personListController.getPersons().get(x).setGrade2(personListStringCellEditEvent.getNewValue());
+
+            }
+        });
 
         VBox box = new VBox();
         box.getChildren().addAll(nameInput,lastNameInput,grade1Input,grade2Input,add,delete);
